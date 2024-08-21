@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ApiGateway\\Properties",
+    "\\ConfigServer\\Extensions",
+    "\\ProductCatalog\\Models",
+    "\\ProductCatalog\\Properties",
+    "\\ProductCatalog\\wwwroot",
+    "\\ProductCatalog\\wwwroot\\swagger"
+  ],
+  "SelectedNode": "\\ApiGateway",
+  "PreviewInSolutionExplorer": false
+}
