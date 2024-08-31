@@ -1,19 +1,11 @@
 {
   "Version": 1,
-  "Hash": "9qxmK2i9rO2EHeVqxJS7k9TUsANmztMF0aOOeTHai8Q=",
+  "Hash": "dQVCI5qUS7+9HTSBsCLv8819nW3MrqlEHZ9YcZZqlOY=",
   "Source": "ProductCatalog",
   "BasePath": "_content/ProductCatalog",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "ProductCatalog\\wwwroot",
-      "Source": "ProductCatalog",
-      "ContentRoot": "C:\\Users\\mikec\\source\\repos\\Project\\ProductCatalog\\wwwroot\\",
-      "BasePath": "_content/ProductCatalog",
-      "Pattern": "**"
-    }
-  ],
+  "DiscoveryPatterns": [],
   "Assets": []
 }

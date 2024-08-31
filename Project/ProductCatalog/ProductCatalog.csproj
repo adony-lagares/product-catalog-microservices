@@ -17,7 +17,6 @@
     <PackageReference Include="Steeltoe.Discovery.Eureka" Version="3.2.8" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.1" />
 	<PackageReference Include="Steeltoe.Extensions.Configuration.ConfigServerCore" Version="3.2.8" />
-	<PackageReference Include="Steeltoe.Discovery.ClientCore" Version="3.2.8" />
   </ItemGroup>
 
 </Project>

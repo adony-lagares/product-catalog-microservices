@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Project",
+    "\\Project\\ApiGateway",
+    "\\Project\\DiscoveryServerMaven\\src",
+    "\\Project\\DiscoveryServerMaven\\src\\main",
+    "\\Project\\DiscoveryServerMaven\\src\\main\\resources",
+    "\\Project\\DiscoveryServerMaven\\src\\test",
+    "\\Project\\DiscoveryServerMaven\\src\\test\\java",
+    "\\Project\\DiscoveryServerMaven\\src\\test\\java\\com",
+    "\\Project\\DiscoveryServerMaven\\src\\test\\java\\com\\example",
+    "\\Project\\DiscoveryServerMaven\\src\\test\\java\\com\\example\\demo",
+    "\\Project\\ProductCatalog"
+  ],
+  "SelectedNode": "\\Project\\ProductCatalog\\appsettings.json",
+  "PreviewInSolutionExplorer": false
+}

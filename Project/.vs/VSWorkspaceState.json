@@ -1,13 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ApiGateway\\Properties",
-    "\\ConfigServer\\Extensions",
-    "\\ProductCatalog\\Models",
-    "\\ProductCatalog\\Properties",
-    "\\ProductCatalog\\wwwroot",
-    "\\ProductCatalog\\wwwroot\\swagger"
+    "\\DiscoveryServerMaven",
+    "\\DiscoveryServerMaven\\src\\main",
+    "\\DiscoveryServerMaven\\src\\main\\java",
+    "\\DiscoveryServerMaven\\src\\main\\java\\com",
+    "\\DiscoveryServerMaven\\src\\main\\java\\com\\example",
+    "\\DiscoveryServerMaven\\src\\main\\java\\com\\example\\demo",
+    "\\ProductCatalog"
   ],
-  "SelectedNode": "\\ApiGateway",
+  "SelectedNode": "\\DiscoveryServerMaven",
   "PreviewInSolutionExplorer": false
 }

@@ -1,48 +1,44 @@
 version: '3.8'
 
 services:
-  productcatalog:
+  eureka-server:
     build:
-      context: .
-      dockerfile: ProductCatalog/Dockerfile
-    container_name: productcatalog
+      context: ./DiscoveryServerMaven
+    ports:
+      - "8761:8761"
+
+  product-catalog:
+    build:
+      context: ./ProductCatalog
     ports:
       - "5001:80"
-    networks:
-      - mynetwork
+    depends_on:
+      - eureka-server
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
 
-  apigateway:
+  api-gateway:
     build:
-      context: .
-      dockerfile: ApiGateway/Dockerfile
-    container_name: apigateway
+      context: ./ApiGateway
+      dockerfile: Dockerfile
     ports:
       - "5000:80"
     networks:
       - mynetwork
     depends_on:
-      - productcatalog
+      - product-catalog
+      - eureka-server
 
-  configserver:
+  config-server:
     build:
-      context: .
-      dockerfile: ConfigServer/Dockerfile
-    container_name: configserver
+      context: ./ConfigServer
+      dockerfile: Dockerfile
     ports:
-      - "8888:8888"
+      - "8888:80"
     networks:
       - mynetwork
-
-  discoveryserver:
-    build:
-      context: .
-      dockerfile: DiscoveryServer/Dockerfile
-    container_name: discoveryserver
-    ports:
-      - "8761:8761"
-    networks:
-      - mynetwork
+    depends_on:
+      - eureka-server
 
 networks:
   mynetwork:
-    driver: bridge

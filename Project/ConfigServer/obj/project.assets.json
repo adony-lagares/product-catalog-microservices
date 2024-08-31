@@ -2706,11 +2706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikec\\source\\repos\\Project\\ConfigServer\\ConfigServer.csproj",
+      "projectUniqueName": "D:\\Microservices Project\\product-catalog-microservices\\Project\\ConfigServer\\ConfigServer.csproj",
       "projectName": "ConfigServer",
-      "projectPath": "C:\\Users\\mikec\\source\\repos\\Project\\ConfigServer\\ConfigServer.csproj",
+      "projectPath": "D:\\Microservices Project\\product-catalog-microservices\\Project\\ConfigServer\\ConfigServer.csproj",
       "packagesPath": "C:\\Users\\mikec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikec\\source\\repos\\Project\\ConfigServer\\obj\\",
+      "outputPath": "D:\\Microservices Project\\product-catalog-microservices\\Project\\ConfigServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mikec\\AppData\\Roaming\\NuGet\\NuGet.Config",

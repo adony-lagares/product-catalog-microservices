@@ -7989,11 +7989,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikec\\source\\repos\\Project\\ProductCatalog\\ProductCatalog.csproj",
+      "projectUniqueName": "D:\\Microservices Project\\product-catalog-microservices\\Project\\ProductCatalog\\ProductCatalog.csproj",
       "projectName": "ProductCatalog",
-      "projectPath": "C:\\Users\\mikec\\source\\repos\\Project\\ProductCatalog\\ProductCatalog.csproj",
+      "projectPath": "D:\\Microservices Project\\product-catalog-microservices\\Project\\ProductCatalog\\ProductCatalog.csproj",
       "packagesPath": "C:\\Users\\mikec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikec\\source\\repos\\Project\\ProductCatalog\\obj\\",
+      "outputPath": "D:\\Microservices Project\\product-catalog-microservices\\Project\\ProductCatalog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mikec\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H1Gs2Aa/uJ4=",
+  "dgSpecHash": "OqU5vdMj/dQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mikec\\source\\repos\\Project\\ProductCatalog\\ProductCatalog.csproj",
+  "projectFilePath": "D:\\Microservices Project\\product-catalog-microservices\\Project\\ProductCatalog\\ProductCatalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikec\\.nuget\\packages\\consul\\0.7.2.6\\consul.0.7.2.6.nupkg.sha512",
     "C:\\Users\\mikec\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.8\\microsoft.aspnetcore.authorization.8.0.8.nupkg.sha512",

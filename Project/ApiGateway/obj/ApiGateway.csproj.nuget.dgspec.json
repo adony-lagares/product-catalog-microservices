@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mikec\\source\\repos\\Project\\ApiGateway\\ApiGateway.csproj": {}
+    "D:\\Microservices Project\\product-catalog-microservices\\Project\\ApiGateway\\ApiGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mikec\\source\\repos\\Project\\ApiGateway\\ApiGateway.csproj": {
+    "D:\\Microservices Project\\product-catalog-microservices\\Project\\ApiGateway\\ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikec\\source\\repos\\Project\\ApiGateway\\ApiGateway.csproj",
+        "projectUniqueName": "D:\\Microservices Project\\product-catalog-microservices\\Project\\ApiGateway\\ApiGateway.csproj",
         "projectName": "ApiGateway",
-        "projectPath": "C:\\Users\\mikec\\source\\repos\\Project\\ApiGateway\\ApiGateway.csproj",
+        "projectPath": "D:\\Microservices Project\\product-catalog-microservices\\Project\\ApiGateway\\ApiGateway.csproj",
         "packagesPath": "C:\\Users\\mikec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikec\\source\\repos\\Project\\ApiGateway\\obj\\",
+        "outputPath": "D:\\Microservices Project\\product-catalog-microservices\\Project\\ApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikec\\AppData\\Roaming\\NuGet\\NuGet.Config",

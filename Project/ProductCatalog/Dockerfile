@@ -1,22 +1,22 @@
-# Estágio base
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-WORKDIR /app
-EXPOSE 80
-
-# Estágio de build
+# Use uma imagem oficial do .NET SDK para compilar o projeto
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["ProductCatalog/ProductCatalog.csproj", "ProductCatalog/"]
-RUN dotnet restore "ProductCatalog/ProductCatalog.csproj"
+
+# Copie o arquivo de projeto e restaure as dependências
+COPY ProductCatalog.csproj .
+RUN dotnet restore
+
+# Copie o restante do código e compile a aplicação
 COPY . .
-WORKDIR "/src/ProductCatalog"
-RUN dotnet build "ProductCatalog.csproj" -c Release -o /app/build
+RUN dotnet publish -c Release -o /app
 
-# Estágio de publicação
-FROM build AS publish
-RUN dotnet publish "ProductCatalog.csproj" -c Release -o /app/publish
+# Use uma imagem oficial do .NET Runtime para executar a aplicação
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+WORKDIR /app
+COPY --from=build /app .
 
-# Estágio final
-FROM base AS final
-COPY --from=publish /app/publish .
+# Exponha a porta em que a aplicação irá rodar
+EXPOSE 80
+
+# Comando para rodar a aplicação
 ENTRYPOINT ["dotnet", "ProductCatalog.dll"]
