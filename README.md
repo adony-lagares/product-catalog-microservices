@@ -16,7 +16,7 @@ Software engineering:
 - 1 Microservice => 1 Container;
 
 
-#2. Project structure:
+# 2. Project structure:
 Main directories:
 EurekaServer/: Contains the Eureka Server implementation based on Netflix OSS with Maven.
 ConfigServer/: Implementation of Config Server in .NET.
@@ -28,7 +28,7 @@ ConfigServer/Program.cs: Config Server entry point.
 ProductCatalog/Program.cs: Entry point for the Product Catalog microservice.
 appsettings.json: Common configuration file in .NET for both ConfigServer and ProductCatalog.
 
-#3. Setting up the environment
+# 3. Setting up the environment
 
 Prerequisites:
 JDK: Required to run Eureka Server.
@@ -81,7 +81,7 @@ Set the Config Server URL to http://localhost:5016 (or the configured port).
 Run the Product Catalog:
 dotnet run
 
-#5. Testing and Validation
+# 5. Testing and Validation
 Testing the Config Server
 Access the Config Server health endpoint:
 
@@ -97,7 +97,7 @@ Go to http://localhost:<port>/swagger to validate Swagger.
 Make sure that the Product Catalog is registering in Eureka:
 
 Check in the Eureka dashboard that the service is listed.
-#6. Possible errors and solutions
+# 6. Possible errors and solutions
 Error 404 when accessing /actuator/health: Check the appsettings.json settings and make sure that actuator endpoints are enabled.
 Eureka registration problems: Check that Eureka is correctly configured and accessible at the URL provided.
 
